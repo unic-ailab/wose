@@ -8,7 +8,7 @@ from configs import Config
 # load model parameters
 config = Config()
 
-embs_folder = os.environ['USERPROFILE'] + '/Downloads/wose-master/embeddings/'
+embs_folder = os.environ['USERPROFILE'] + '/Downloads/wose-main/embeddings/'
 if(os.path.isfile(embs_folder + 'crawl-300d-2M-subword.zip')):
     path_to_glove = embs_folder + 'crawl-300d-2M-subword.zip'
 
