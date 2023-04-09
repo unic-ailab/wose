@@ -9,8 +9,8 @@ class Config():
     presetDataset     =  True
     semevalyear       = '2014'
     rootFolder        =  os.environ['USERPROFILE']
-    model_env        =   rootFolder + '/downloads/wose-master/source-code/wose_model'
-    pathToDatasets    =  '/downloads/wose-master/datasets/'
+    model_env        =   rootFolder + '/downloads/wose-main/source-code/wose_model'
+    pathToDatasets    =  '/downloads/wose-main/datasets/'
     dataset           =  str(filename_preset[0:len(filename_preset)-4]).lower()
     extract_preds     = True # extract golden and predicted aspects
 
