@@ -8,7 +8,7 @@ from sklearn.model_selection import KFold
 import os
 
 ''' set model environment '''
-os.chdir(os.environ['USERPROFILE'] + '/downloads/wose-master/source-code')
+os.chdir(os.environ['USERPROFILE'] + '/downloads/wose-main/source-code')
 # import local libraries
 import data_utils as utils
 import pre_trained_w2fvec as w2fvec
