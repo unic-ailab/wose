@@ -25,7 +25,7 @@ class Config():
     batch_size        =  32 if elmo_embs else 32
     lr_method         =  'adam'
     pre_trained_emb   =  'fasttext'
-    lr                =  3e-3 if elmo_embs else 1.25e-3 # learning rate for optimizer
+    lr                =  1.25e-3 if elmo_embs else 3e-3 # learning rate for optimizer
     l2_regul          =  1e-3 # for weight regularization
     l1_regul          =  6e-3 # for weight regularization
     rel_pos_emb       =  True # select False for Absolute Position encoding, true for Relative aware position
