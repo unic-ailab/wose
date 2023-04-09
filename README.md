@@ -1,5 +1,5 @@
 # word-sentence-level-encoder
-Code repo for paper Word and Sentence-Level Representations for Implicit Aspect Extraction
+Code repo for the paper Word and Sentence-Level Representations for Implicit Aspect Extraction
 
 ## Reference
 (Paper under Review)
