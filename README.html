@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<h1><span lang=EN-US style='mso-fareast-font-family:"Times New Roman";
+mso-ansi-language:EN-US'>How to run the model <o:p></o:p></span></h1>
+
+<h2><span lang=EN-US style='mso-fareast-font-family:"Times New Roman";
+mso-ansi-language:EN-US'>Code repo for the paper titled &quot;Word and Sentence
+Level Representations for Implicit Aspect Extraction&quot; <o:p></o:p></span></h2>
+
+<div>
+
+<p><span lang=EN-US style='mso-ansi-language:EN-US'>1: The code-base is set to
+run without additional path settings, if it is downloaded and placed at the
+downloads folder as follows:<o:p></o:p></span></p>
+
+<p style='margin-left:36.0pt;text-indent:-18.0pt;mso-list:l3 level1 lfo2'><![if !supportLists]><span
+lang=EN-US style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+Symbol;mso-ansi-language:EN-US'><span style='mso-list:Ignore'>&ntilde;<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+lang=EN-US style='mso-ansi-language:EN-US'>wose-master<o:p></o:p></span></p>
+
+<p style='margin-left:72.0pt;text-indent:-18.0pt;mso-list:l3 level2 lfo2'><![if !supportLists]><span
+lang=EN-US style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+Symbol;mso-ansi-language:EN-US'><span style='mso-list:Ignore'>|<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-US style='mso-ansi-language:EN-US'>datasets<o:p></o:p></span></p>
+
+<p style='margin-left:72.0pt;text-indent:-18.0pt;mso-list:l3 level2 lfo2'><![if !supportLists]><span
+lang=EN-US style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+Symbol;mso-ansi-language:EN-US'><span style='mso-list:Ignore'>|<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-US style='mso-ansi-language:EN-US'>embeddings<o:p></o:p></span></p>
+
+<p style='margin-left:72.0pt;text-indent:-18.0pt;mso-list:l3 level2 lfo2'><![if !supportLists]><span
+lang=EN-US style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+Symbol;mso-ansi-language:EN-US'><span style='mso-list:Ignore'>|<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-US style='mso-ansi-language:EN-US'>output-data<o:p></o:p></span></p>
+
+<p style='margin-left:72.0pt;text-indent:-18.0pt;mso-list:l3 level2 lfo2'><![if !supportLists]><span
+lang=EN-US style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+Symbol;mso-ansi-language:EN-US'><span style='mso-list:Ignore'>|<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-US style='mso-ansi-language:EN-US'>source-code<o:p></o:p></span></p>
+
+<p style='margin-left:72.0pt;text-indent:-18.0pt;mso-list:l3 level2 lfo2'><![if !supportLists]><span
+lang=EN-US style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+Symbol;mso-ansi-language:EN-US'><span style='mso-list:Ignore'>|<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-US style='mso-ansi-language:EN-US'>README.html<o:p></o:p></span></p>
+
+</div>
+
+<div>
+
+<p><span lang=EN-US style='mso-ansi-language:EN-US'>2: The embeddings folder
+must contain the </span><a
+href="https://fasttext.cc/docs/en/english-vectors.html"><span lang=EN-US
+style='mso-ansi-language:EN-US'>crawl-300d-2M-subword.zip</span></a><span
+style='mso-ansi-language:EN-US'> <span lang=EN-US><o:p></o:p></span></span></p>
+
+</div>
+
+<div>
+
+<p><span lang=EN-US style='mso-ansi-language:EN-US'>3: The train_wose.py in the
+source-code folder is the main file to load &amp; train the model. <o:p></o:p></span></p>
+
+<h2><span style='mso-fareast-font-family:"Times New Roman"'>Requirements<o:p></o:p></span></h2>
+
+<ul type=disc>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l2 level1 lfo5;tab-stops:list 36.0pt'><span style='mso-fareast-font-family:
+     "Times New Roman"'>tensorflow version: '1.15.4' <o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l2 level1 lfo5;tab-stops:list 36.0pt'><span style='mso-fareast-font-family:
+     "Times New Roman"'>numpy version: '1.16.1'<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l2 level1 lfo5;tab-stops:list 36.0pt'><span style='mso-fareast-font-family:
+     "Times New Roman"'>sklearn version: '0.19.0'<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l2 level1 lfo5;tab-stops:list 36.0pt'><span style='mso-fareast-font-family:
+     "Times New Roman"'>nltk version: '3.2.4'<o:p></o:p></span></li>
+</ul>
+
+</div>
+
+<p style='margin-left:36.0pt'><span lang=EN-US style='mso-ansi-language:EN-US'>4:
+The configs.py in the source-code folder contains the main parameter settings
+of the model <o:p></o:p></span></p>
+
+<h4 style='margin-left:36.0pt'><span lang=EN-US style='mso-fareast-font-family:
+"Times New Roman";mso-ansi-language:EN-US'>Valid input dataset names in
+configs.py setup <o:p></o:p></span></h4>
+
+<ul type=disc>
+ <ul type=circle>
+  <li class=MsoNormal style='color:blue;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+      auto;mso-list:l2 level2 lfo5;tab-stops:list 72.0pt'><span lang=EN-US
+      style='mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-US'>Laptop
+      14 dataset:<i> filename_train=Laptop_Train14.xml,
+      filename_test=Laptop_Test14.xml, filename_preset=LAPTOP14.txt </i><o:p></o:p></span></li>
+  <li class=MsoNormal style='color:blue;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+      auto;mso-list:l2 level2 lfo5;tab-stops:list 72.0pt'><span lang=EN-US
+      style='mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-US'>Restaurants
+      14 dataset: <i>filename_train=Restaurants_Train14.xml,
+      filename_test=Restaurants_Test14.xml, filename_preset=RESTAURANTS14.txt </i><o:p></o:p></span></li>
+  <li class=MsoNormal style='color:blue;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+      auto;mso-list:l2 level2 lfo5;tab-stops:list 72.0pt'><span lang=EN-US
+      style='mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-US'>Restaurants
+      15 dataset: <i>filename_train=Restaurants_Train15.xml,
+      filename_test=Restaurants_Test15.xml, filename_preset=RESTAURANTS15.txt</i><o:p></o:p></span></li>
+  <li class=MsoNormal style='color:blue;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+      auto;mso-list:l2 level2 lfo5;tab-stops:list 72.0pt'><span lang=EN-US
+      style='mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-US'>Restaurants
+      15 dataset: <i>filename_train=Restaurants_Train16.xml,
+      filename_test=Restaurants_Test16.xml, filename_preset=RESTAURANTS16.txt</i><o:p></o:p></span></li>
+ </ul>
+</ul>
+
+</div>
+
+</body>
+
+</html>
