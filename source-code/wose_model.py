@@ -107,7 +107,7 @@ class woseModel(BModel):
             K = tf.layers.dense(keys, num_units, activation=tf.nn.relu,kernel_regularizer=regularizers.l1_l2(l1=config.l1_regul, l2=config.l2_regul),
     bias_regularizer=regularizers.l2(config.l2_regul),
     activity_regularizer=regularizers.l2(config.l2_regul))
-            V = tf.layers.dense(keys, num_units, activation=tf.nn.relu,kernel_regularizer=regularizers.l1_l2(l1=config.l1_regul, l2=config.l2_regul),
+            V = tf.layers.dense(values, num_units, activation=tf.nn.relu,kernel_regularizer=regularizers.l1_l2(l1=config.l1_regul, l2=config.l2_regul),
     bias_regularizer=regularizers.l2(config.l2_regul),
     activity_regularizer=regularizers.l2(config.l2_regul))
 
