@@ -1,5 +1,5 @@
 # word-sentence-level-encoder
-Code repo for the paper Word and Sentence-Level Representations for Implicit Aspect Extraction published in IEEE Transactions on Computational Social Systems - Journal
+Code repo for the paper Word- and Sentence-Level Representations for Implicit Aspect Extraction published in IEEE Transactions on Computational Social Systems - Journal
 
 ## Reference
 When using the code-base please use the following reference to cite our work: 
